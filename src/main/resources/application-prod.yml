@@ -1,0 +1,8 @@
+#项目属性配置 生产环境
+server:
+  port: 8082  #访问端口
+  servlet:
+    context-path: /girl
+girl:
+  cupSize: F
+  age: 27
