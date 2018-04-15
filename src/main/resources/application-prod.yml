@@ -3,6 +3,7 @@ server:
   port: 8082  #访问端口
   servlet:
     context-path: /girl
+
 girl:
   cupSize: F
   age: 27
