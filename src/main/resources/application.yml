@@ -1,3 +1,12 @@
 spring:
   profiles:
     active: dev  #使用生产环境 其实借助控制台的java -jar 可以启动多个环境
+  datasource:
+    dirver-class-name: com.mysql,jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot_girl
+    username: root
+    password:
+  jpa:
+   hibernate:
+    ddl-auto: update
+  show-sql: true
